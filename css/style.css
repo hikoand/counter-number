@@ -1,0 +1,33 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+.flex_box {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.count {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #6967cc;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
